@@ -70,7 +70,7 @@ MMRMMRMRRM
 
 ## Assumptions
 
-* The square directly North from (x, y) is (x, y+1).
+* The square directly North from `0 0` is `0 1`.
   
 
 * Your code should accept a file path to load.
@@ -99,5 +99,10 @@ the quality of the code that you write to pass them.
   
 
 * Documentation and ease of running your code will be taken into consideration
+
+## Extra Credit
+
+Extra points if your code handles unexpected situations graciously and takes into account the plateu size when 
+calculating movements
 
 # Good Luck !
