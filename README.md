@@ -92,3 +92,10 @@ will use the following assessment criteria:
 5. **Clean commit history**: one of the best ways for us to understand how you think is to see how you
    approached the problem. Commit early and often; don't be afraid to use multiple branches and make changes
    as you go. Logical, understandable commit messages are a bonus.
+
+## Extra Credit
+
+Extra points if your code handles unexpected situations graciously and takes into account the plateu size when
+calculating movements
+
+# Good Luck !
