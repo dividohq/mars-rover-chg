@@ -37,6 +37,8 @@ Assume that :
 
 ### Input
 
+Your program must accept the input file as parameter, and it is expected to parse `input.dat` correctly
+
 The first line of input is the upper-right coordinates of the plateau, the lower-left 
 coordinates are assumed to be `0 0`.
 
