@@ -29,24 +29,20 @@ The possible letters are:
 * `R` - makes the rover spin 90 degrees right without moving from its current spot
 * `M` - means move forward one grid point, and maintain the same heading.
 
-Assume that :
-* The square directly North from (x, y) is (x, y+1).
-* The square directly South from (x, y) is (x, y-1).
-* The square directly West from (x, y) is (x-1, y).
-* The square directly East from (x, y) is (x+1, y).
 
 ### Input file
 The first line of input is the upper-right coordinates of the plateau, the lower-left 
 coordinates are assumed to be `0 0`.
 
-The rest of the input is information pertaining to the rovers that have been deployed. 
+The rest of the input is information pertaining to the rovers that have been deployed.
+
 Each rover has two lines of input:
 
 * The first line gives the rover’s position
 * The second line is a series of instructions telling the rover how to explore the plateau.
 
 The position is made up of two integers and a letter separated by spaces, corresponding to 
-the x and y co-ordinates and the rover’s orientation. eg: ` 1 1 N`
+the x and y co-ordinates and the rover’s orientation. eg: `1 1 N`
 
 Each rover will be finished sequentially, which means that the second rover won’t start to move until the first one has finished moving.
 
@@ -73,6 +69,9 @@ MMRMMRMRRM
 5 1 E
 
 ## Assumptions
+
+* The square directly North from (x, y) is (x, y+1).
+  
 
 * Your code should accept a file path to load.
   
