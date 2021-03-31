@@ -50,7 +50,10 @@ the x and y co-ordinates and the rover’s orientation. eg: ` 1 1 N`
 
 Each rover will be finished sequentially, which means that the second rover won’t start to move until the first one has finished moving.
 
-OUTPUT The output for each rover should be its final co-ordinates and heading.
+### Output
+The output for each rover should be its final co-ordinates and heading.
+
+We expect your program to output a position per line
 
 ### Example Input: 
 5 5
@@ -71,18 +74,29 @@ MMRMMRMRRM
 
 ## Assumptions
 
-1. Your code should accept a file path to load.
-2. Your code must be able to detect invalid file format, and reject
+* Your code should accept a file path to load.
+  
+
+* Your code must be able to detect invalid file format, and reject
    the file. This should be handled gracefuly and the app should not crash
-3. You are free to use any language, framework and libraries that you see fit. Although  we expect you not to use
+
+
+* You are free to use any language, framework and libraries that you see fit. Although  we expect you not to use
    any that might defeat the purpose of this test.
 
 ## Assessment Criteria
 
-This repository contains a suite of input files that you can use to exercise the requirements stated above. 
+* This repository contains a input file named `input.dat` We expect that file to be properly parsed.
+  
 
-You will be expected to provide unit tests asserting the correct behaviour of your code
+* You will be expected to provide unit tests asserting the correct behaviour of your code
 
-You will be assessed both on the quality of tests, and on
-the quality of the code that you write to pass them. We're looking
-for concise, readable code.
+
+* You will be assessed both on the quality of tests, and on
+the quality of the code that you write to pass them. 
+  
+
+* We're looking for concise, readable code.
+  
+
+* Documentation and ease of running your code will be taken into consideration
